@@ -4,15 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>変数を使おう（2）</title>
+  <title>プログラムに対してコメントを書きたい</title>
   <script>
-    const name = 'スズキ';
-    alert(name);
+    const value = 100; //価格
+    const tax = 1.1; //消費税10%
+    
+    //消費税込の値段を求める
+    const price = value * tax;
+
+    const result = 100 + 200 /* + 300 */ + 400;
+    console.log(result); //700
+     
   </script>
 </head>
 <body>
   <blockquote>
-  let 変数名 = 値
+  コメントをこまめに書こう
   </blockquote>
 </body>
 </html>
